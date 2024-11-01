@@ -1,0 +1,243 @@
+*{
+    margin-top: 0;
+    margin-left: 0;  
+    margin-right: 0;
+    font-family: 'Source Code Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+#logo{
+    position:sticky;
+    width: 254px;
+    height: 187px;
+    left: 0px;
+    top: 0px;
+    background: url(image1.png);
+    
+} 
+header{
+background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+height: 200px;
+color: rgb(255, 255, 255);
+font-size: 28px;
+text-align: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.Home{
+background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+height:800px;
+color: rgb(255, 255, 255);
+font-size: 28px;
+text-align: center;
+
+}
+#text1{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 450px;
+    padding-top: 100px;
+    
+}
+.About{
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+    height:800px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center; 
+    padding-bottom: 100px;
+}
+.home{
+  align-items: center;
+  justify-content: center;
+}
+p{
+    padding: 45px;
+    text-align: justify, center;
+    margin: 20px 0;
+}
+
+#arrow{
+    padding-bottom: 50px;
+}
+#text2{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    
+}
+.Habilidades{
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+    height:800px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 1000px;
+}
+#text3{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+.IMG{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.Hobby{
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+    height:750px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    padding-top: 500px;
+ 
+}
+
+#text4{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+.Projetos{
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+    height:800px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+
+}
+#text5{
+    font-size: 28px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+ul{
+    list-style: none;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+}
+.Contact{
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgba(176,1,12,1) 100%);
+    height:900px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+}
+
+.Projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.img_P{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.IMGFLEX{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #ff0000;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    background: linear-gradient(90deg, rgb(48, 33, 33) 0%, rgb(176,1,12,1) 100%);
+    width: 150%;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 85px   ;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #ffffff;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+#Tema{
+  text-align: center;
+  background:#0000;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+@media (min-width: 768px)  (max-width: 1024px;);
+
+    
